@@ -19,6 +19,13 @@
   &-item {
     width: 100%;
     padding: 3rem 0;
+    opacity: 1;
+    transition: all 0.8s;
+
+    &__hidden {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
 
     &__img {
       width: 100%;
@@ -36,9 +43,16 @@
 
   &-item {
     padding-bottom: 5rem;
-  }
 
-  &__category {
+    @media only screen and (max-width: 1000px) {
+      opacity: 1;
+      transition: all 0.8s;
+
+      &__hidden {
+        transform: translateX(-200px);
+        opacity: 0;
+      }
+    }
   }
 
   &__category-items {
