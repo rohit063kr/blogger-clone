@@ -1,0 +1,71 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 5rem;
+  background: $bg-color;
+  padding: 10rem 9rem;
+
+  @media only screen and (max-width: 1000px) {
+    padding: 10rem 4rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    padding: 10rem 2rem;
+  }
+
+  &__para {
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+  }
+
+  &__heading {
+    margin-bottom: 3rem;
+    font-size: 2.4rem;
+  }
+
+  &-about {
+  }
+
+  &__input-group {
+  }
+
+  &__arrow-box {
+    display: inline-block;
+    background: $color-sky;
+    padding: 0.8rem;
+    transform: translatex(-1rem);
+  }
+
+  &__arrow {
+    display: inline-block;
+    font-size: 1.6rem;
+    color: $color-white;
+  }
+
+  &__input {
+  }
+
+  &-newsletter {
+  }
+
+  &-insta {
+  }
+
+  &__gallary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+    grid-gap: 2rem;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &-follow {
+  }
+  &__social {
+    color: $color-white;
+  }
+}

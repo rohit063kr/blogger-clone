@@ -1,0 +1,22 @@
+.btn{
+    display:inline-block;
+    padding:1.4rem 4rem;
+    color:$color-black;
+    background:$color-sky; 
+    text-decoration:none;
+    font-family:$font-livvic;
+    font-size:1.6rem;
+    border:2px solid transparent;
+    
+    &--round{
+        border-radius:100px;
+    }
+    
+    &-hov--transparent:hover{
+        background:transparent;
+        border:2px solid $color-white;
+        color:$color-white;
+    }
+}
+
+.btn-sm { padding:.5rem 3rem ;}

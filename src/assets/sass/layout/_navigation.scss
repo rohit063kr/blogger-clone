@@ -1,0 +1,56 @@
+.navigation{
+    
+    background:$color-white;
+    display:flex;
+    justify-content:space-between;
+    align-items:stretch;
+    padding:0 3rem;
+    
+    &__logo{
+        padding:1.4rem 0;
+        color:$text-gray;
+        text-transform: capitalize;
+        font-size:2.5rem;
+        font-weight:300;
+        font-family:$font-lexend;
+    }
+    
+    &__nav{
+        display:flex;
+        align-items:stretch;
+    }
+    
+    &__list{
+        list-style:none;
+        display:flex;
+        align-items:stretch;
+    }
+    
+    &__list-items{
+        display:flex;
+        align-items:center;
+    }
+    
+    &__link{
+        height:100%;
+        display:flex;
+        align-items:center;
+        text-decoration:none;
+        font-family:$font-abel;
+        font-size:1.7rem;
+        padding:0 1.5rem;
+        text-transform: capitalize;
+        color:$text-gray;
+    }
+    
+    &__social{
+        display:flex;
+        align-items:center;
+    }
+    
+    &__link:hover{
+        background:$color-midnight;
+        color:$color-white;
+    }
+
+}

@@ -1,0 +1,42 @@
+.heading-primary{
+    text-transform: capitalize;
+    font-family:$font-lexend;
+    font-size:4rem; 
+}
+
+.heading-5{
+    font-size:2rem;
+    text-transform: capitalize;
+    font-family:$font-abel;
+}
+
+.heading-4{
+    font-size:2.2rem;
+    font-family:$font-lexend;
+    justify-self:flex-start;
+}
+
+.heading-secondary{
+    font-size:2.6rem;
+    font-weight: 200;
+    color:$text-gray;
+    font-family:$font-anton;
+    margin:2rem 0;
+}
+
+.paragraph{
+    font-family:$font-lexend;
+    color:$text-light;
+    font-size:1.7rem;
+    margin-bottom:1rem;
+}
+
+hr{
+    width:110%;
+    transform:translateX(-6rem);
+}
+
+.heading--white{ color: $color-white; }
+.heading--black{ color: $color-black; }
+
+.heading-sm { font-size:1.6rem; }
