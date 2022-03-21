@@ -1,6 +1,7 @@
 .header {
   height: 100vh;
   background: url("../../img/Background-image.png");
+  background-repeat: no-repeat;
   position: relative;
 
   &__text-box {
